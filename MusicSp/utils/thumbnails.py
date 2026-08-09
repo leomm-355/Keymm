@@ -24,7 +24,7 @@ async def gen_thumb(videoid: str):
         os.makedirs("cache", exist_ok=True)
 
         
-        custom_image_url = "https://example.com/your-image.jpg"
+        custom_image_url = "https://files.catbox.moe/agqvg6.jpg"
 
         image_path = f"cache/thumb{videoid}.png"
 
